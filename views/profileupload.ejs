@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+<body class="bg-zinc-900 min-h-screen flex items-center justify-center">
+    <div class="w-full max-w-md p-10 bg-zinc-800 rounded-md text-white">
+        <h1 class="text-2xl text-zinc-400 mb-5">Upload your smiles!😉</h1>
+        
+        <form autocomplete="off" action="/upload" method="post" enctype="multipart/form-data">
+            <input type="file" name="image">
+            <input class="px-3 py-2 bg-zinc-600 mt-5 rounded-md text-white w-full cursor-pointer" type="submit" value="Upload">
+        </form>        
+    </div>
+</body>
+</html>
