@@ -29,17 +29,3 @@ A **Node.js**-based project for managing profile picture uploads. This project a
    cd <project-folder>
 
 
-## **Folder Structure**
-project/
-│
-├── public/
-│   ├── images/
-│   │   └── uploads/
-│   ├── stylesheets/
-│   └── javascripts/
-│
-├── configs/
-├── routes/
-├── package.json
-├── package-lock.json
-└── server.js
